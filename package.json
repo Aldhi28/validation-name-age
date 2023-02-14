@@ -1,5 +1,6 @@
 {
-  "name": "react-the-complete-guide",
+  "homepage": "http://aldhi28.github.io/validation-name-age",
+  "name": "validation-name-age",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -11,6 +12,8 @@
     "react-scripts": "4.0.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d deploy",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -30,5 +33,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
